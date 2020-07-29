@@ -1,18 +1,18 @@
 import React from 'react';
 import Logo from '../../assets/img/Logo.png'
+import { LogoImage, MenuWrapper } from './style.js';
 import Button from '../Button';
-import './Menu.css';
 
 function Menu() {
     return (
-        <nav className="Menu">
+        <MenuWrapper className="Menu">
             <a href="/">
-                <img className="Logo" src={Logo} alt="GuiFlix logo" />
+                <LogoImage src={Logo} alt="GuiFlix logo" />
             </a>
-            <Button as="a" className="ButtonLink" href="/">
+            <Button as="a" href="/">
                 Novo vídeo
             </Button>
-        </nav>
+        </MenuWrapper>
     );
 }
 
