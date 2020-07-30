@@ -14,7 +14,8 @@ export const MenuWrapper = styled.nav`
     z-index: 1;
     position: fixed;
     top: 0;
-    left: 0%;
+    left: 0;
+    right: 0;
     padding-left: 5%;
     padding-right: 5%;
 
