@@ -1,0 +1,10 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Novo Polo",
+      "descricao": "Todas as dúvidas do Novo Polo respondidas de maneira rápida e objetiva",
+      "cor": "#041b40"
+    }
+  ]
+}
